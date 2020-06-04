@@ -102,3 +102,18 @@ dist
 
 # TernJS port file
 .tern-port
+
+public/**/*.html
+public/**/*.html
+public/css/*.css
+public/js/*.js
+public/packages/react
+public/packages/svelte
+public/packages/vue
+public/packages/core/**/*.*
+public/packages/core/LICENSE
+!public/packages/core/package.json
+!public/packages/core/fonts/*.ttf
+!public/packages/core/fonts/*.woff
+!public/packages/core/fonts/*.woff2
+!public/packages/core/skeleton-elements.css

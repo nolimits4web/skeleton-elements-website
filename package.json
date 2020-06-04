@@ -1,0 +1,51 @@
+{
+  "name": "skeleton-elements-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build/build",
+    "watch": "node ./build/watch",
+    "serve": "serve ./public/",
+    "dev": "npm run build && concurrently --kill-others \"npm run serve\" \"npm run watch\"",
+    "prettier": "prettier \"**/*.+(js|json|scss|css|less|ts)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different",
+    "lint": "eslint --ext .js .",
+    "validate": "npm-run-all --parallel check-format lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolimits4web/skeleton-elements-website.git"
+  },
+  "author": "Vladimir Kharlampidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nolimits4web/skeleton-elements-website/issues"
+  },
+  "homepage": "https://github.com/nolimits4web/skeleton-elements-website#readme",
+  "devDependencies": {
+    "clean-css": "^4.2.3",
+    "concurrently": "^5.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "glob": "^7.1.6",
+    "html-minifier": "^4.0.0",
+    "install": "^0.13.0",
+    "less": "^3.11.2",
+    "markdown-toc": "^1.2.0",
+    "npm": "^6.14.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "prismjs": "^1.20.0",
+    "remarkable": "^2.0.1",
+    "serve": "^11.3.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

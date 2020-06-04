@@ -1,0 +1,74 @@
+.monospace() {
+  font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Monaco, Consolas,
+    'Courier New', monospace;
+}
+@color: rgb(164, 52, 255);
+@import (inline) url('../../node_modules/normalize.css/normalize.css');
+
+html,
+body {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: -apple-system, system-ui, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  color: #000;
+}
+a {
+  color: @color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.center-content {
+  max-width: 960px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe {
+  background: #eee;
+}
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  scroll-margin: 60px;
+}
+h1 + ul {
+  margin: 1em 0 2em;
+}
+h1 + ul,
+h1 + ul ul {
+  list-style-position: inside;
+  margin-left: 0;
+  padding: 0;
+  li {
+    margin: 0.25em 0;
+  }
+  ul {
+    margin-left: 1em;
+  }
+}
+footer {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@import url('./nav.less');
+@import url('./home-header.less');
+@import url('./home-demo.less');
+@import url('./pre-code.less');
+@import url('./table.less');
