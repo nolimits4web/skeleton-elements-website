@@ -1,7 +1,7 @@
 ---
 title: Skeleton Elements for Svelte - UI for improved perceived performance
 description: Svelte UI library for perceived performance
-shareImage: 'https://skeleton-elements.dev/i/share-svelte.png'
+shareImage: https://skeleton-elements.dev/i/share-svelte.png
 ---
 
 # Skeleton Elements for Svelte

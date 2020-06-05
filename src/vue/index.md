@@ -1,7 +1,7 @@
 ---
 title: Skeleton Elements for Vue - UI for improved perceived performance
 description: Vue UI library for perceived performance
-shareImage: 'https://skeleton-elements.dev/i/share-vue.png'
+shareImage: https://skeleton-elements.dev/i/share-vue.png
 ---
 
 # Skeleton Elements for Vue
