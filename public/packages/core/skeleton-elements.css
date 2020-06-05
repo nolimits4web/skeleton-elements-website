@@ -26,6 +26,26 @@
     color: var(--skeleton-color) !important;
     letter-spacing: -0.03em !important; }
 
+.skeleton-image {
+  display: inline-block; }
+  .skeleton-image svg {
+    width: 100%;
+    height: auto; }
+  .skeleton-image polygon {
+    fill: var(--skeleton-color); }
+  .skeleton-image path {
+    fill: var(--skeleton-icon-color); }
+
+.skeleton-avatar {
+  display: inline-block; }
+  .skeleton-avatar svg {
+    width: 100%;
+    height: auto; }
+  .skeleton-avatar rect {
+    fill: var(--skeleton-color); }
+  .skeleton-avatar path {
+    fill: var(--skeleton-icon-color); }
+
 .skeleton-effect-blink {
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
