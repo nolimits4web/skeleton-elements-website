@@ -1,10 +1,10 @@
 ---
-title: Skeleton Elements for React - UI for improved perceived performance
-description: React UI library for perceived performance
+title: Skeleton Elements for Vue - UI for improved perceived performance
+description: Vue UI library for perceived performance
 shareImage: ''
 ---
 
-# Skeleton Elements for React
+# Skeleton Elements for Vue
 
 - [Installation](#installation)
 - [Styles](#styles)
@@ -18,14 +18,14 @@ shareImage: ''
   - [SkeletonImage](#skeletonimage)
 - [Loading Effects](#loading-effects)
 
-<iframe src="https://codesandbox.io/embed/skeletonelements-react-vqe6u?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/skeleton-elements-vue-nvd4e?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-elements-vue" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 ## Installation
 
-You can install Skeleton Elements for React via npm:
+You can install Skeleton Elements for Vue via npm:
 
 ```
-npm i @skeleton-elements/react --save
+npm i @skeleton-elements/vue --save
 ```
 
 ## Styles
@@ -41,27 +41,27 @@ Skeleton Elements requires stylesheet to be included:
 Wiht bunder (like webpack) you can import syles directly from JavaScript:
 
 ```js
-import '@skeleton-elements/react/skeleton-elements.css';
+import '@skeleton-elements/vue/skeleton-elements.css';
 ```
 
 Or it can be included for each component separately:
 
-- `@skeleton-elements/react/skeleton-avatar.css` - Avatar component
-- `@skeleton-elements/react/skeleton-block.css` - Block component
-- `@skeleton-elements/react/skeleton-image.css` - Image component
-- `@skeleton-elements/react/skeleton-text.css` - Text component
-- `@skeleton-elements/react/skeleton-effects.css` - Effects
+- `@skeleton-elements/vue/skeleton-avatar.css` - Avatar component
+- `@skeleton-elements/vue/skeleton-block.css` - Block component
+- `@skeleton-elements/vue/skeleton-image.css` - Image component
+- `@skeleton-elements/vue/skeleton-text.css` - Text component
+- `@skeleton-elements/vue/skeleton-effects.css` - Effects
 
 ### SCSS
 
 `SCSS` styles are also included:
 
-- `@skeleton-elements/react/skeleton-elements.scss` - All styles
-- `@skeleton-elements/react/skeleton-avatar.scss` - Avatar component
-- `@skeleton-elements/react/skeleton-block.scss` - Block component
-- `@skeleton-elements/react/skeleton-image.scss` - Image component
-- `@skeleton-elements/react/skeleton-text.scss` - Text component
-- `@skeleton-elements/react/skeleton-effects.scss` - Effects
+- `@skeleton-elements/vue/skeleton-elements.scss` - All styles
+- `@skeleton-elements/vue/skeleton-avatar.scss` - Avatar component
+- `@skeleton-elements/vue/skeleton-block.scss` - Block component
+- `@skeleton-elements/vue/skeleton-image.scss` - Image component
+- `@skeleton-elements/vue/skeleton-text.scss` - Text component
+- `@skeleton-elements/vue/skeleton-effects.scss` - Effects
 
 ### CSS Custom Properties (Variables)
 
@@ -83,7 +83,7 @@ There are following components available:
 
 Skeleton block is just a usual block element with gray background color, that can be in any required size.
 
-<iframe src="https://codesandbox.io/embed/skeletonblock-react-7i7dd?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonBlock React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/skeleton-block-vue-ggkon?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-block-vue" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 #### SkeletonBlock Props
 
@@ -106,7 +106,7 @@ Skeleton text font supports following characters set (including "space"):
 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w z x y z A B C D E F G H I J K L M N O P Q R S T U V W Z X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
 ```
 
-<iframe src="https://codesandbox.io/embed/skeletontext-react-ujr5l?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonText React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/skeleton-text-vue-p2615?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-text-vue" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 #### SkeletonText Props
 
@@ -119,7 +119,7 @@ Skeleton text font supports following characters set (including "space"):
 
 Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamically renders SVG image with "person" icon inside:
 
-<iframe src="https://codesandbox.io/embed/skeletonavatar-react-fjy56?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonAvatar React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/skeleton-avatar-vue-6emk3?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-avatar-vue" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 #### SkeletonAvatar Props
 
@@ -137,7 +137,7 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 
 Skeleton Image is designed to be used as a placeholder for images. It dynamically renders rectangle SVG image with "image" icon inside:
 
-<iframe src="https://codesandbox.io/embed/skeletonimage-react-8q1os?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonImage React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe src="https://codesandbox.io/embed/skeleton-image-vue-8e8ty?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-image-vue" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
 #### SkeletonImage Props
 
@@ -162,19 +162,19 @@ There are following loading effects available:
 To add loading effect in Skeleton components, pass effect name in `effect` prop.
 For anything else, just add `skeleton-effect-${effectName}` class to elements.
 
-```jsx
-//  skeleton block with "pulse" loading effect
-<SkeletonBlock effect="pulse" />
+```html
+<!-- skeleton block with "pulse" loading effect -->
+<skeleton-block effect="pulse" />
 
-// skeleton text with "fade" loading effect
-<SkeletonText effect="fade">...</SkeletonText>
+<!-- skeleton text with "fade" loading effect -->
+<skeleton-text effect="fade">...</skeleton-text>
 
-// custom block with "blink" loading effect
-<div className="skeleton-effect-blink">
-  <SkeletonText tag="h1">...</SkeletonText>
-  <SkeletonText tag="h2">...</SkeletonText>
-  <SkeletonText tag="p">...</SkeletonText>
-  <SkeletonText tag="p">...</SkeletonText>
-  <SkeletonBlock>...</SkeletonBlock>
+<!-- custom block with "blink" loading effect -->
+<div class="skeleton-effect-blink">
+  <skeleton-text tag="h1">...</skeleton-text>
+  <skeleton-text tag="h2">...</skeleton-text>
+  <skeleton-text tag="p">...</skeleton-text>
+  <skeleton-text tag="p">...</skeleton-text>
+  <skeleton-block>...</skeleton-block>
 </div>
 ```
