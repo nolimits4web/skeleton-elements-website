@@ -23,7 +23,6 @@ module.exports = {
     'guard-for-in': 'off',
     'no-restricted-syntax': 'off',
     'no-console': 'off',
-    'no-restricted-globals': ['error', 'window', 'document'],
     'jsx-a11y/label-has-associated-control': 'off',
     'import/no-extraneous-dependencies': 'off',
   },

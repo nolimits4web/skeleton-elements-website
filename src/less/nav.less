@@ -13,7 +13,6 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
     height: 100%;
   }
   .logo {
@@ -48,5 +47,77 @@ nav {
   svg {
     width: 24px;
     height: 24px;
+  }
+  .nav-backdrop {
+    position: fixed;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .nav-mobile-label {
+    display: none;
+  }
+  @media (max-width: 620px) {
+    .nav-mobile-label {
+      display: inline-block;
+      margin-left: 4px;
+    }
+    .nav-mobile-opener {
+      display: flex;
+      width: 44px;
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      &:active {
+        opacity: 0.55;
+      }
+      span {
+        width: 24px;
+        height: 2px;
+        background: @color;
+        + span {
+          margin-top: 4px;
+        }
+      }
+    }
+    ul {
+      position: fixed;
+      right: 0;
+      top: 0;
+      height: 100%;
+      z-index: 100;
+      display: block;
+      background: #fff;
+      width: 200px;
+      transform: translateX(100%);
+    }
+    li {
+      + li {
+        margin-left: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      a {
+        padding: 10px 20px;
+        width: 100%;
+      }
+    }
+    &.nav-opened {
+      .nav-backdrop {
+        opacity: 1;
+        pointer-events: auto;
+        transition: 200ms;
+      }
+      ul {
+        transform: translateX(0%);
+        transition: 200ms;
+      }
+    }
   }
 }

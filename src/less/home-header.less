@@ -19,7 +19,6 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
     border: 2px solid @color;
     border-radius: 10px;
     padding: 10px 0;
@@ -29,6 +28,17 @@
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
+    margin: 10px;
+
+    @media (max-width: 420px) {
+      width: 130px;
+      margin: 5px;
+    }
+    @media (max-width: 319px) {
+      margin: 10px;
+      display: flex;
+      width: auto;
+    }
     &:hover {
       background-color: rgba(red(@color), green(@color), blue(@color), 0.1);
     }

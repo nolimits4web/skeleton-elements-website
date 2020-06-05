@@ -30,11 +30,23 @@ a {
   padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
+  @media (max-width: 768px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @media (max-width: 420px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 iframe {
   background: #eee;
   margin-left: -20px;
   margin-right: -20px;
+  @media (max-width: 768px) {
+    margin-left: -0px;
+    margin-right: -0px;
+  }
 }
 main {
   padding-top: 50px;
