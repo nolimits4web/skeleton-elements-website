@@ -17,7 +17,10 @@ module.exports = (fileContent) => {
   const vars = {};
   const varsString = fileContent.split('---\n')[1].split('---\n')[0].trim();
   varsString.split('\n').forEach((varLine) => {
-    vars[varLine.split(':')[0]] = varLine.split(':')[1].trim();
+    const varName = varLine.split(':')[0];
+    const varValue = varLine.split(':');
+    varValue.splice(0, 1);
+    vars[varName] = varValue.join(':').trim();
   });
 
   const mdConent = fileContent.split('---\n')[2];
