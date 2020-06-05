@@ -1,7 +1,6 @@
 ---
 title: Skeleton Elements - UI for improved perceived performance
 description: UI library for perceived performance
-shareImage: https://skeleton-elements.dev/i/share.png
 ---
 
 <div class="home-header">

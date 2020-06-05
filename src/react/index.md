@@ -1,7 +1,6 @@
 ---
 title: Skeleton Elements for React - UI for improved perceived performance
 description: React UI library for perceived performance
-shareImage: https://skeleton-elements.dev/i/share-react.png
 ---
 
 # Skeleton Elements for React
