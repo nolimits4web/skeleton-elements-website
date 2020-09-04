@@ -5,6 +5,8 @@ description: Vue UI library for perceived performance
 
 # Skeleton Elements for Vue
 
+<p class="important-note">Skeleton Elementst Vue.js components compatible only with new Vue.js version 3</p>
+
 - [Installation](#installation)
 - [Styles](#styles)
   - [CSS](#css)
