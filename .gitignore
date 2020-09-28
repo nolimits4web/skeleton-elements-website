@@ -39,7 +39,7 @@ build/Release
 
 # Dependency directories
 node_modules/
-jspm_packages/
+jspm_package/
 
 # TypeScript v1 declaration files
 typings/
@@ -106,13 +106,14 @@ dist
 public/**/*.html
 public/**/*.html
 public/css/*.css
-public/packages/react
-public/packages/svelte
-public/packages/vue
-public/packages/core/**/*.*
-public/packages/core/LICENSE
-!public/packages/core/package.json
-!public/packages/core/fonts/*.ttf
-!public/packages/core/fonts/*.woff
-!public/packages/core/fonts/*.woff2
-!public/packages/core/skeleton-elements.css
+public/package/*.scss
+public/package/react
+public/package/scss
+public/package/svelte
+public/package/vue
+public/package/LICENSE
+!public/package/package.json
+!public/package/fonts/*.ttf
+!public/package/fonts/*.woff
+!public/package/fonts/*.woff2
+!public/package/skeleton-elements.css

@@ -24,7 +24,7 @@ description: React UI library for perceived performance
 You can install Skeleton Elements for React via npm:
 
 ```
-npm i @skeleton-elements/react --save
+npm i skeleton-elements --save
 ```
 
 ## Styles
@@ -40,27 +40,27 @@ Skeleton Elements requires stylesheet to be included:
 Wiht bunder (like webpack) you can import syles directly from JavaScript:
 
 ```js
-import '@skeleton-elements/react/skeleton-elements.css';
+import 'skeleton-elements/skeleton-elements.css';
 ```
 
 Or it can be included for each component separately:
 
-- `@skeleton-elements/react/skeleton-avatar.css` - Avatar component
-- `@skeleton-elements/react/skeleton-block.css` - Block component
-- `@skeleton-elements/react/skeleton-image.css` - Image component
-- `@skeleton-elements/react/skeleton-text.css` - Text component
-- `@skeleton-elements/react/skeleton-effects.css` - Effects
+- `skeleton-elements/skeleton-avatar.css` - Avatar component
+- `skeleton-elements/skeleton-block.css` - Block component
+- `skeleton-elements/skeleton-image.css` - Image component
+- `skeleton-elements/skeleton-text.css` - Text component
+- `skeleton-elements/skeleton-effects.css` - Effects
 
 ### SCSS
 
 `SCSS` styles are also included:
 
-- `@skeleton-elements/react/skeleton-elements.scss` - All styles
-- `@skeleton-elements/react/skeleton-avatar.scss` - Avatar component
-- `@skeleton-elements/react/skeleton-block.scss` - Block component
-- `@skeleton-elements/react/skeleton-image.scss` - Image component
-- `@skeleton-elements/react/skeleton-text.scss` - Text component
-- `@skeleton-elements/react/skeleton-effects.scss` - Effects
+- `skeleton-elements/skeleton-elements.scss` - All styles
+- `skeleton-elements/skeleton-avatar.scss` - Avatar component
+- `skeleton-elements/skeleton-block.scss` - Block component
+- `skeleton-elements/skeleton-image.scss` - Image component
+- `skeleton-elements/skeleton-text.scss` - Text component
+- `skeleton-elements/skeleton-effects.scss` - Effects
 
 ### CSS Custom Properties (Variables)
 
@@ -80,6 +80,10 @@ There are following components available:
 
 ### SkeletonBlock
 
+```js
+import { SkeletonBlock } from 'skeleton-elements/react';
+```
+
 Skeleton block is just a usual block element with gray background color, that can be in any required size.
 
 <iframe src="https://codesandbox.io/embed/skeletonblock-react-7i7dd?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonBlock React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
@@ -94,6 +98,10 @@ Skeleton block is just a usual block element with gray background color, that ca
 | `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `blink` |
 
 ### SkeletonText
+
+```js
+import { SkeletonText } from 'skeleton-elements/react';
+```
 
 Skeleton text uses custom Skeleton font for making responsive text placeholders.
 
@@ -116,6 +124,10 @@ Skeleton text font supports following characters set (including "space"):
 
 ### SkeletonAvatar
 
+```js
+import { SkeletonAvatar } from 'skeleton-elements/react';
+```
+
 Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamically renders SVG image with "person" icon inside:
 
 <iframe src="https://codesandbox.io/embed/skeletonavatar-react-fjy56?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonAvatar React" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
@@ -133,6 +145,10 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 | `effect`       | `string`  |          | Loading effect, can be`fade`or`pulse`or`blink` |
 
 ### SkeletonImage
+
+```js
+import { SkeletonImage } from 'skeleton-elements/react';
+```
 
 Skeleton Image is designed to be used as a placeholder for images. It dynamically renders rectangle SVG image with "image" icon inside:
 

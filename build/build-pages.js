@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 const minify = require('html-minifier').minify;
-const pkg = require('../public/packages/core/package.json');
+const pkg = require('../public/package/package.json');
 const md = require('./md');
 
 module.exports = () => {

@@ -1,7 +1,7 @@
 {
-  "name": "@skeleton-elements/core",
-  "version": "2.0.0",
-  "description": "Skeleton elements (aka UI Skeletons, Skeleton Screens, Ghost Elements) are representations of UI that will be available (loaded) soon. They are designed to improve perceived performance.",
+  "name": "skeleton-elements",
+  "version": "3.0.0",
+  "description": "Skeleton elements (aka UI Skeletons, Skeleton Screens, Ghost Elements) - UI for improved perceived performance",
   "main": "skeleton-elements.css",
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "placeholder",
     "performance",
     "vue",
-    "vuejs"
+    "vuejs",
+    "react",
+    "svelte"
   ],
   "license": "MIT",
   "bugs": {

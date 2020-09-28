@@ -22,7 +22,7 @@ shareImage: https://skeleton-elements.dev/i/share.png
 You can install Skeleton Elements via npm:
 
 ```
-npm i @skeleton-elements/core --save
+npm i skeleton-elements --save
 ```
 
 ## Styles
@@ -38,23 +38,23 @@ Skeleton Elements requires stylesheet to be included:
 Wiht bunder (like webpack) you can import syles directly from JavaScript:
 
 ```js
-import '@skeleton-elements/core/skeleton-elements.css';
+import 'skeleton-elements/skeleton-elements.css';
 ```
 
 Or it can be included for each component separately:
 
-- `@skeleton-elements/core/skeleton-block.css` - Block component
-- `@skeleton-elements/core/skeleton-text.css` - Text component
-- `@skeleton-elements/core/skeleton-effects.css` - Effects
+- `skeleton-elements/skeleton-block.css` - Block component
+- `skeleton-elements/skeleton-text.css` - Text component
+- `skeleton-elements/skeleton-effects.css` - Effects
 
 ### SCSS
 
 `SCSS` styles are also included:
 
-- `@skeleton-elements/core/skeleton-elements.scss` - All styles
-- `@skeleton-elements/core/skeleton-block.scss` - Block component
-- `@skeleton-elements/core/skeleton-text.scss` - Text component
-- `@skeleton-elements/core/skeleton-effects.scss` - Effects
+- `skeleton-elements/skeleton-elements.scss` - All styles
+- `skeleton-elements/skeleton-block.scss` - Block component
+- `skeleton-elements/skeleton-text.scss` - Text component
+- `skeleton-elements/skeleton-effects.scss` - Effects
 
 ### CSS Custom Properties (Variables)
 
