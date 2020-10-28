@@ -93,8 +93,8 @@ Skeleton block is just a usual block element with gray background color, that ca
 | Name     | Type     | Default | Description                                         |
 | -------- | -------- | ------- | --------------------------------------------------- |
 | `tag`    | `string` | `'div'` | HTML element tag                                    |
-| `width`  | `number` |         | Block CSS width                                     |
-| `height` | `number` |         | Block CSS height                                    |
+| `width`  | `string` |         | Block CSS width                                     |
+| `height` | `string` |         | Block CSS height                                    |
 | `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `blink` |
 
 ### SkeletonText
