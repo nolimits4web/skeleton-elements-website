@@ -107,6 +107,8 @@ public/**/*.html
 public/**/*.html
 public/css/*.css
 public/package/*.scss
+public/package/angular
+public/package/__ivy_ngcc__
 public/package/react
 public/package/scss
 public/package/svelte
