@@ -37,7 +37,7 @@ Skeleton Elements requires stylesheet to be included:
 <link rel="stylesheet" href="path/to/skeleton-elements.css" />
 ```
 
-Wiht bunder (like webpack) you can import syles directly from JavaScript:
+With bunder (like webpack) you can import syles directly from JavaScript:
 
 ```js
 import 'skeleton-elements/skeleton-elements.css';
