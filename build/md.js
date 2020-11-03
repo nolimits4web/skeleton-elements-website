@@ -15,7 +15,8 @@ const md = new Remarkable({
 
 module.exports = (fileContent) => {
   const vars = {};
-  const varsString = fileContent.split('---\n')[1].split('---\n')[0].trim();
+  const content = fileContent.replace(/\r\n/g, '\n');
+  const varsString = content.split('---\n')[1].split('---\n')[0].trim();
   varsString.split('\n').forEach((varLine) => {
     const varName = varLine.split(':')[0];
     const varValue = varLine.split(':');
@@ -23,7 +24,7 @@ module.exports = (fileContent) => {
     vars[varName] = varValue.join(':').trim();
   });
 
-  const mdConent = fileContent.split('---\n')[2];
+  const mdConent = content.split('---\n')[2];
 
   const html = md.render(mdConent);
 
