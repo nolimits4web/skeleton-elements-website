@@ -23,6 +23,10 @@ description: UI library for perceived performance
       <img src="/i/vue.svg" alt="vue">
       <span>For Vue</span>
     </a>
+    <a href="/angular/">
+      <img src="/i/angular.svg" alt="vue">
+      <span>For Angular</span>
+    </a>
   </p>
 </div>
 <div class="home-demo">
