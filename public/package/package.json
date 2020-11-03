@@ -19,6 +19,7 @@
     "vue",
     "vuejs",
     "react",
+    "angular",
     "svelte"
   ],
   "license": "MIT",
