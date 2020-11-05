@@ -91,7 +91,7 @@ There are following loading effects available:
 
 - `pulse`
 - `fade`
-- `blink`
+- `wave`
 
 To add loading effect to any element just add `skeleton-effect-${effectName}` class, e.g.
 
@@ -102,8 +102,8 @@ To add loading effect to any element just add `skeleton-effect-${effectName}` cl
 <!-- skeleton text with "fade" loading effect -->
 <p class="skeleton-text skeleton-effect-fade">...</p>
 
-<!-- custom block with "blink" loading effect -->
-<div class="skeleton-effect-blink">
+<!-- custom block with "wave" loading effect -->
+<div class="skeleton-effect-wave">
   <h1 class="skeleton-text">...</h1>
   <h2 class="skeleton-text">...</h1>
   <p class="skeleton-text">...</p>

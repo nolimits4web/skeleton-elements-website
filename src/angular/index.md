@@ -96,18 +96,18 @@ Skeleton block is just a usual block element with gray background color, that ca
 
 #### SkeletonBlockComponent Props
 
-| Name     | Type     | Default | Description                                         |
-| -------- | -------- | ------- | --------------------------------------------------- |
-| `width`  | `string` |         | Block CSS width                                     |
-| `height` | `string` |         | Block CSS height                                    |
-| `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `blink` |
+| Name     | Type     | Default | Description                                        |
+| -------- | -------- | ------- | -------------------------------------------------- |
+| `width`  | `string` |         | Block CSS width                                    |
+| `height` | `string` |         | Block CSS height                                   |
+| `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `wave` |
 
 ### SkeletonText
 
 ```html
 <!-- use it as directive -->
 <p skeleton-text effect="pulse">Placeholder text</p>
-<h1 skeleton-text effect="blink">Placeholder text</h1>
+<h1 skeleton-text effect="wave">Placeholder text</h1>
 ```
 
 Skeleton text uses custom Skeleton font for making responsive text placeholders.
@@ -122,9 +122,9 @@ Skeleton text font supports following characters set (including "space"):
 
 #### SkeletonText Props
 
-| Name     | Type     | Default | Description                                         |
-| -------- | -------- | ------- | --------------------------------------------------- |
-| `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `blink` |
+| Name     | Type     | Default | Description                                        |
+| -------- | -------- | ------- | -------------------------------------------------- |
+| `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `wave` |
 
 ### SkeletonAvatar
 
@@ -139,36 +139,36 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 
 #### SkeletonAvatar Props
 
-| Name           | Type      | Default | Description                                    |
-| -------------- | --------- | ------- | ---------------------------------------------- |
-| `size`         | `number`  | `48`    | Generated SVG size in px.                      |
-| `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`    |
-| `showIcon`     | `boolean` | `true`  | Defines wether to show icon or not             |
-| `iconColor`    | `string`  |         | Icon CSS color                                 |
-| `borderRadius` | `string`  | `50%`   | Avatar CSS border radius                       |
-| `effect`       | `string`  |         | Loading effect, can be`fade`or`pulse`or`blink` |
+| Name           | Type      | Default | Description                                   |
+| -------------- | --------- | ------- | --------------------------------------------- |
+| `size`         | `number`  | `48`    | Generated SVG size in px.                     |
+| `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`   |
+| `showIcon`     | `boolean` | `true`  | Defines wether to show icon or not            |
+| `iconColor`    | `string`  |         | Icon CSS color                                |
+| `borderRadius` | `string`  | `50%`   | Avatar CSS border radius                      |
+| `effect`       | `string`  |         | Loading effect, can be`fade`or`pulse`or`wave` |
 
 ### SkeletonImage
 
 ```html
 <!-- use it as component -->
-<skeleton-image effect="blink" width="400" height="200"></skeleton-image>
+<skeleton-image effect="wave" width="400" height="200"></skeleton-image>
 <!-- or as directive -->
-<div skeleton-image effect="blink" width="400" height="200"></div>
+<div skeleton-image effect="wave" width="400" height="200"></div>
 ```
 
 Skeleton Image is designed to be used as a placeholder for images. It dynamically renders rectangle SVG image with "image" icon inside:
 
 #### SkeletonImage Props
 
-| Name        | Type      | Default | Description                                         |
-| ----------- | --------- | ------- | --------------------------------------------------- |
-| `width`     | `number`  | `1200`  | SVG image width in px                               |
-| `height`    | `number`  | `600`   | SVG image height in px                              |
-| `color`     | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`         |
-| `showIcon`  | `boolean` | `true`  | Defines wether to show icon or not                  |
-| `iconColor` | `string`  |         | Icon CSS color                                      |
-| `effect`    | `string`  |         | Loading effect, can be `fade` or `pulse` or `blink` |
+| Name        | Type      | Default | Description                                        |
+| ----------- | --------- | ------- | -------------------------------------------------- |
+| `width`     | `number`  | `1200`  | SVG image width in px                              |
+| `height`    | `number`  | `600`   | SVG image height in px                             |
+| `color`     | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`        |
+| `showIcon`  | `boolean` | `true`  | Defines wether to show icon or not                 |
+| `iconColor` | `string`  |         | Icon CSS color                                     |
+| `effect`    | `string`  |         | Loading effect, can be `fade` or `pulse` or `wave` |
 
 ## Loading Effects
 
@@ -176,7 +176,7 @@ There are following loading effects available:
 
 - `pulse`
 - `fade`
-- `blink`
+- `wave`
 
 To add loading effect in Skeleton components, pass effect name in `effect` prop.
 For anything else, just add `skeleton-effect-${effectName}` class to elements.
@@ -188,8 +188,8 @@ For anything else, just add `skeleton-effect-${effectName}` class to elements.
 <!-- skeleton text with "fade" loading effect -->
 <p skeleton-text effect="fade">...</p>
 
-<!-- custom block with "blink" loading effect -->
-<div class="skeleton-effect-blink">
+<!-- custom block with "wave" loading effect -->
+<div class="skeleton-effect-wave">
   <h1 skeleton-text tag="h1">...</h1>
   <h2 skeleton-text tag="h2">...</h2>
   <p skeleton-text tag="p">...</p>

@@ -46,7 +46,7 @@
   .skeleton-avatar path {
     fill: var(--skeleton-icon-color); }
 
-.skeleton-effect-blink {
+.skeleton-effect-blink, .skeleton-effect-wave {
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
   -webkit-mask-size: 200% 100%;
@@ -55,8 +55,8 @@
   mask-repeat: repeat;
   -webkit-mask-position: 50% top;
   mask-position: 50% top;
-  -webkit-animation: skeleton-effect-blink 1s infinite;
-          animation: skeleton-effect-blink 1s infinite; }
+  -webkit-animation: skeleton-effect-wave 1s infinite;
+          animation: skeleton-effect-wave 1s infinite; }
 
 .skeleton-effect-fade {
   -webkit-animation: skeleton-effect-fade 1s infinite;
@@ -82,7 +82,7 @@
   100% {
     opacity: 1; } }
 
-@-webkit-keyframes skeleton-effect-blink {
+@-webkit-keyframes skeleton-effect-wave {
   0% {
     -webkit-mask-position: 50% top;
     mask-position: 50% top; }
@@ -90,7 +90,7 @@
     -webkit-mask-position: -150% top;
     mask-position: -150% top; } }
 
-@keyframes skeleton-effect-blink {
+@keyframes skeleton-effect-wave {
   0% {
     -webkit-mask-position: 50% top;
     mask-position: 50% top; }
