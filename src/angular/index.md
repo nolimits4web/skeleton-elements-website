@@ -17,6 +17,8 @@ description: Angular UI library for perceived performance
   - [SkeletonImage](#skeletonimage)
 - [Loading Effects](#loading-effects)
 
+<iframe src="https://stackblitz.com/edit/skeletonelements-angular?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
+
 ## Installation
 
 You can install Skeleton Elements for Angular via npm:
@@ -94,6 +96,8 @@ There are following components available:
 
 Skeleton block is just a usual block element with gray background color, that can be in any required size.
 
+<iframe src="https://stackblitz.com/edit/skeletonelements-block-angular?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
+
 #### SkeletonBlockComponent Props
 
 | Name     | Type     | Default | Description                                        |
@@ -120,6 +124,8 @@ Skeleton text font supports following characters set (including "space"):
 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w z x y z A B C D E F G H I J K L M N O P Q R S T U V W Z X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
 ```
 
+<iframe src="https://stackblitz.com/edit/skeletonelements-text-angula?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
+
 #### SkeletonText Props
 
 | Name     | Type     | Default | Description                                        |
@@ -136,6 +142,8 @@ Skeleton text font supports following characters set (including "space"):
 ```
 
 Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamically renders SVG image with "person" icon inside:
+
+<iframe src="https://stackblitz.com/edit/skeletonelements-avatar-angular?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
 
 #### SkeletonAvatar Props
 
@@ -158,6 +166,8 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 ```
 
 Skeleton Image is designed to be used as a placeholder for images. It dynamically renders rectangle SVG image with "image" icon inside:
+
+<iframe src="https://stackblitz.com/edit/skeletonelements-image-angular?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
 
 #### SkeletonImage Props
 
