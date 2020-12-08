@@ -30,7 +30,7 @@ description: UI library for perceived performance
   </p>
 </div>
 <div class="home-demo">
- <div class="demo-cols skeleton-effect-fade">
+ <div class="demo-cols skeleton-effect-wave">
     <div class="demo-col">
       <span class="skeleton-image"><svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" preserveAspectRatio="none"><polygon fill-rule="evenodd" points="0 0 400 0 400 200 0 200"></polygon><path d="M164,139 L236,139 C245,139 249,134 249,126 L249,74 C249,66 245,61 236,61 L164,61 C155,61 151,66 151,74 L151,126 C151,134 155,139 164,139 Z M220,100 C218,98 216,97 214,97 C212,97 209,98 208,100 L189,117 L181,110 C179,108 177,107 175,107 C173,107 172,108 170,110 L157,121 L157,75 C157,70 160,68 164,68 L236,68 C240,68 243,70 243,75 L243,121 L220,100 Z M182,100 C187,100 192,96 192,90 C192,85 187,81 182,81 C176,81 172,85 172,90 C172,96 176,100 182,100 Z"></path></svg></span>
       <h2 class="skeleton-text">Loading Placeholder</h2>
