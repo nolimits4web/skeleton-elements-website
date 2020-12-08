@@ -90,12 +90,13 @@ Skeleton block is just a usual block element with gray background color, that ca
 
 #### SkeletonBlock Props
 
-| Name     | Type     | Default | Description                                        |
-| -------- | -------- | ------- | -------------------------------------------------- |
-| `tag`    | `string` | `'div'` | HTML element tag                                   |
-| `width`  | `string` |         | Block CSS width                                    |
-| `height` | `string` |         | Block CSS height                                   |
-| `effect` | `string` |         | Loading effect, can be `fade` or `pulse` or `wave` |
+| Name           | Type     | Default | Description                                        |
+| -------------- | -------- | ------- | -------------------------------------------------- |
+| `tag`          | `string` | `'div'` | HTML element tag                                   |
+| `width`        | `string` |         | Block CSS width                                    |
+| `height`       | `string` |         | Block CSS height                                   |
+| `borderRadius` | `string` |         | Block CSS border radius                            |
+| `effect`       | `string` |         | Loading effect, can be `fade` or `pulse` or `wave` |
 
 ### SkeletonText
 
@@ -156,15 +157,16 @@ Skeleton Image is designed to be used as a placeholder for images. It dynamicall
 
 #### SkeletonImage Props
 
-| Name        | Type      | Default  | Description                                        |
-| ----------- | --------- | -------- | -------------------------------------------------- |
-| `tag`       | `string`  | `'span'` | HTML element tag                                   |
-| `width`     | `number`  | `1200`   | SVG image width in px                              |
-| `height`    | `number`  | `600`    | SVG image height in px                             |
-| `color`     | `string`  |          | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`        |
-| `showIcon`  | `boolean` | `true`   | Defines wether to show icon or not                 |
-| `iconColor` | `string`  |          | Icon CSS color                                     |
-| `effect`    | `string`  |          | Loading effect, can be `fade` or `pulse` or `wave` |
+| Name           | Type      | Default  | Description                                        |
+| -------------- | --------- | -------- | -------------------------------------------------- |
+| `tag`          | `string`  | `'span'` | HTML element tag                                   |
+| `width`        | `number`  | `1200`   | SVG image width in px                              |
+| `height`       | `number`  | `600`    | SVG image height in px                             |
+| `color`        | `string`  |          | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`        |
+| `showIcon`     | `boolean` | `true`   | Defines wether to show icon or not                 |
+| `iconColor`    | `string`  |          | Icon CSS color                                     |
+| `borderRadius` | `string`  |          | CSS border radius                                  |
+| `effect`       | `string`  |          | Loading effect, can be `fade` or `pulse` or `wave` |
 
 ## Loading Effects
 
