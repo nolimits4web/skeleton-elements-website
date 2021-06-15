@@ -39,7 +39,7 @@ Skeleton Elements requires stylesheet to be included:
 <link rel="stylesheet" href="path/to/skeleton-elements.css" />
 ```
 
-With bunder (like webpack) you can import syles directly from JavaScript:
+With bundler (like webpack) you can import styles directly from JavaScript:
 
 ```js
 import 'skeleton-elements/skeleton-elements.css';
