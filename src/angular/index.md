@@ -152,7 +152,7 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 | -------------- | --------- | ------- | --------------------------------------------- |
 | `size`         | `number`  | `48`    | Generated SVG size in px.                     |
 | `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`   |
-| `showIcon`     | `boolean` | `true`  | Defines wether to show icon or not            |
+| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not            |
 | `iconColor`    | `string`  |         | Icon CSS color                                |
 | `borderRadius` | `string`  | `50%`   | Avatar CSS border radius                      |
 | `effect`       | `string`  |         | Loading effect, can be`fade`or`pulse`or`wave` |
@@ -177,7 +177,7 @@ Skeleton Image is designed to be used as a placeholder for images. It dynamicall
 | `width`        | `number`  | `1200`  | SVG image width in px                              |
 | `height`       | `number`  | `600`   | SVG image height in px                             |
 | `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`        |
-| `showIcon`     | `boolean` | `true`  | Defines wether to show icon or not                 |
+| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not                 |
 | `iconColor`    | `string`  |         | Icon CSS color                                     |
 | `borderRadius` | `string`  |         | CSS border radius                                  |
 | `effect`       | `string`  |         | Loading effect, can be `fade` or `pulse` or `wave` |
