@@ -122,7 +122,7 @@ Special Skeleton font renders every character as small gray rectangle. When we w
 Skeleton text font supports following characters set (including "space"):
 
 ```
-0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w z x y z A B C D E F G H I J K L M N O P Q R S T U V W Z X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
+0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
 ```
 
 <iframe src="https://stackblitz.com/edit/skeletonelements-text-angula?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
