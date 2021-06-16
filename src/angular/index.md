@@ -122,7 +122,7 @@ Special Skeleton font renders every character as small gray rectangle. When we w
 Skeleton text font supports following characters set (including "space"):
 
 ```
-0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w z x y z A B C D E F G H I J K L M N O P Q R S T U V W Z X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
+0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
 ```
 
 <iframe src="https://stackblitz.com/edit/skeletonelements-text-angula?ctl=1&embed=1&file=src/app/app.component.html" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="SkeletonElements Angular"></iframe>
@@ -152,7 +152,7 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 | -------------- | --------- | ------- | --------------------------------------------- |
 | `size`         | `number`  | `48`    | Generated SVG size in px.                     |
 | `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`   |
-| `showIcon`     | `boolean` | `true`  | Defines wether to show icon or not            |
+| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not            |
 | `iconColor`    | `string`  |         | Icon CSS color                                |
 | `borderRadius` | `string`  | `50%`   | Avatar CSS border radius                      |
 | `effect`       | `string`  |         | Loading effect, can be`fade`or`pulse`or`wave` |
@@ -177,7 +177,7 @@ Skeleton Image is designed to be used as a placeholder for images. It dynamicall
 | `width`        | `number`  | `1200`  | SVG image width in px                              |
 | `height`       | `number`  | `600`   | SVG image height in px                             |
 | `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`        |
-| `showIcon`     | `boolean` | `true`  | Defines wether to show icon or not                 |
+| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not                 |
 | `iconColor`    | `string`  |         | Icon CSS color                                     |
 | `borderRadius` | `string`  |         | CSS border radius                                  |
 | `effect`       | `string`  |         | Loading effect, can be `fade` or `pulse` or `wave` |
