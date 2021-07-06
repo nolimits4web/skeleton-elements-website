@@ -1,6 +1,6 @@
 {
   "name": "skeleton-elements-website",
-  "version": "3.3.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -46,6 +46,7 @@
     "serve": "^11.3.2"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "skeleton-elements": "^3.4.0"
   }
 }

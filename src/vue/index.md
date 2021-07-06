@@ -17,6 +17,7 @@ description: Vue UI library for perceived performance
   - [SkeletonText](#skeletontext)
   - [SkeletonAvatar](#skeletonavatar)
   - [SkeletonImage](#skeletonimage)
+- [Custom Fonts](#custom-fonts)
 - [Loading Effects](#loading-effects)
 
 <iframe src="https://codesandbox.io/embed/skeleton-elements-vue-nvd4e?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-elements-vue" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
@@ -169,6 +170,35 @@ Skeleton Image is designed to be used as a placeholder for images. It dynamicall
 | `iconColor`    | `string`  |          | Icon CSS color                                     |
 | `borderRadius` | `string`  |          | CSS border radius                                  |
 | `effect`       | `string`  |          | Loading effect, can be `fade` or `pulse` or `wave` |
+
+## Custom Fonts
+
+As mentioned above Skeleton Text support specific subset of Latin characters and numbers. In addition to this there are following language fonts available:
+
+- `skeleton-elements/fonts/skeleton-ar.(ttf|woff|woff2)` - font containing Arabic characters
+- `skeleton-elements/fonts/skeleton-fa.(ttf|woff|woff2)` - font containing Farsi characters
+- `skeleton-elements/fonts/skeleton-il.(ttf|woff|woff2)` - font containing Hebrew (Israel) characters
+- `skeleton-elements/fonts/skeleton-ru.(ttf|woff|woff2)` - font containing Russian (Cyrillic) characters
+
+For example, to add Russian language support, register the font in your CSS:
+```css
+@font-face {
+  font-family: 'skeleton-ru';
+  src: url("/path-to/skeleton-elements/fonts/skeleton-ru.woff2") format("woff2"),
+       url("/path-to/skeleton-elements/fonts/skeleton-ru.woff") format("woff");
+}
+
+.skeleton-text-ru {
+  font-family: 'skeleton-ru';
+}
+```
+
+And then use in your layout along with `skeleton-text` class:
+```html
+<div class="skeleton-text skeleton-text-ru">
+  Текст на русском
+</div>
+```
 
 ## Loading Effects
 

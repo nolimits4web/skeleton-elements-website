@@ -1,7 +1,9 @@
 const buildPages = require('./build-pages');
 const buildStyles = require('./build-styles');
+const copyPackage = require('./copy-package');
 
-function build() {
+async function build() {
+  await copyPackage();
   buildPages();
   buildStyles();
 }

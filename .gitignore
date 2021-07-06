@@ -119,3 +119,5 @@ public/package/LICENSE
 !public/package/fonts/*.woff
 !public/package/fonts/*.woff2
 !public/package/skeleton-elements.css
+
+.DS_Store
