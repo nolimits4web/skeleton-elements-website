@@ -36,7 +36,7 @@ Skeleton Elements requires stylesheet to be included:
 <link rel="stylesheet" href="path/to/skeleton-elements.css" />
 ```
 
-With bunder (like webpack) you can import syles directly from JavaScript:
+With bundler (like webpack) you can import styles directly from JavaScript:
 
 ```js
 import 'skeleton-elements/skeleton-elements.css';
@@ -81,7 +81,7 @@ Special Skeleton font renders every character as small gray rectangle. When we w
 Skeleton text font supports following characters set (including "space"):
 
 ```
-0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w z x y z A B C D E F G H I J K L M N O P Q R S T U V W Z X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
+0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z _ -   . , : ; / ! / * & ' " | ( ) { } [ ]
 ```
 
 <iframe src="https://codesandbox.io/embed/skeleton-text-khc72?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" title="skeleton-text" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
