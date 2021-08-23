@@ -12,7 +12,9 @@ module.exports = async () => {
       recursive: true,
       force: true,
     });
-  } catch (err) {}
+  } catch (err) {
+    // err
+  }
 
   await new Promise((resolve) => {
     exec(

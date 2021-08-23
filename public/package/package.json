@@ -1,38 +1,13 @@
 {
-  "_from": "skeleton-elements",
-  "_id": "skeleton-elements@3.4.0",
-  "_inBundle": false,
-  "_integrity": "sha512-UC/dExXBOI54sEJgyqOWwokp3BKIIidN5PLd47xwm1N5W8233dSAE1iZZ2mEd8K0hIUp8zjeXUdbRqhQTTMdng==",
-  "_location": "/skeleton-elements",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "skeleton-elements",
-    "name": "skeleton-elements",
-    "escapedName": "skeleton-elements",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/skeleton-elements/-/skeleton-elements-3.4.0.tgz",
-  "_shasum": "9ae14c9df42428a5599ddc1eebb62fef7ee409ed",
-  "_spec": "skeleton-elements",
-  "_where": "/Users/vladimirkharlampidi/GitHub/nolimits4web/skeleton-elements-website",
-  "author": {
-    "name": "Vladimir Kharlampidi"
-  },
-  "bugs": {
-    "url": "https://github.com/nolimits4web/skeleton-elements/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "skeleton-elements",
+  "version": "3.5.0",
   "description": "Skeleton elements (aka UI Skeletons, Skeleton Screens, Ghost Elements) - UI for improved perceived performance",
-  "homepage": "https://github.com/nolimits4web/skeleton-elements#readme",
+  "main": "skeleton-elements.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolimits4web/skeleton-elements.git"
+  },
+  "author": "Vladimir Kharlampidi",
   "keywords": [
     "skeleton",
     "ghost",
@@ -47,11 +22,8 @@
     "svelte"
   ],
   "license": "MIT",
-  "main": "skeleton-elements.css",
-  "name": "skeleton-elements",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nolimits4web/skeleton-elements.git"
+  "bugs": {
+    "url": "https://github.com/nolimits4web/skeleton-elements/issues"
   },
-  "version": "3.4.0"
+  "homepage": "https://github.com/nolimits4web/skeleton-elements#readme"
 }
