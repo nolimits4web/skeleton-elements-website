@@ -46,7 +46,7 @@ Or it can be included for each component separately:
 
 - `skeleton-elements/skeleton-block.css` - Block component
 - `skeleton-elements/skeleton-text.css` - Text component
-- `skeleton-elements/skeleton-effects.css` - Effects
+- `skeleton-elements/skeleton-effect.css` - Effects
 
 ### SCSS
 
@@ -55,7 +55,7 @@ Or it can be included for each component separately:
 - `skeleton-elements/skeleton-elements.scss` - All styles
 - `skeleton-elements/skeleton-block.scss` - Block component
 - `skeleton-elements/skeleton-text.scss` - Text component
-- `skeleton-elements/skeleton-effects.scss` - Effects
+- `skeleton-elements/skeleton-effect.scss` - Effects
 
 ### CSS Custom Properties (Variables)
 
@@ -96,11 +96,12 @@ As mentioned above Skeleton Text support specific subset of Latin characters and
 - `skeleton-elements/fonts/skeleton-ru.(ttf|woff|woff2)` - font containing Russian (Cyrillic) characters
 
 For example, to add Russian language support, register the font in your CSS:
+
 ```css
 @font-face {
   font-family: 'skeleton-ru';
-  src: url("/path-to/skeleton-elements/fonts/skeleton-ru.woff2") format("woff2"),
-       url("/path-to/skeleton-elements/fonts/skeleton-ru.woff") format("woff");
+  src: url('/path-to/skeleton-elements/fonts/skeleton-ru.woff2') format('woff2'),
+    url('/path-to/skeleton-elements/fonts/skeleton-ru.woff') format('woff');
 }
 
 .skeleton-text-ru {
@@ -109,10 +110,9 @@ For example, to add Russian language support, register the font in your CSS:
 ```
 
 And then use in your layout along with `skeleton-text` class:
+
 ```html
-<div class="skeleton-text skeleton-text-ru">
-  Текст на русском
-</div>
+<div class="skeleton-text skeleton-text-ru">Текст на русском</div>
 ```
 
 ## Loading Effects

@@ -50,7 +50,7 @@ Or it can be included for each component separately:
 - `skeleton-elements/skeleton-block.css` - Block component
 - `skeleton-elements/skeleton-image.css` - Image component
 - `skeleton-elements/skeleton-text.css` - Text component
-- `skeleton-elements/skeleton-effects.css` - Effects
+- `skeleton-elements/skeleton-effect.css` - Effects
 
 ### SCSS
 
@@ -61,7 +61,7 @@ Or it can be included for each component separately:
 - `skeleton-elements/skeleton-block.scss` - Block component
 - `skeleton-elements/skeleton-image.scss` - Image component
 - `skeleton-elements/skeleton-text.scss` - Text component
-- `skeleton-elements/skeleton-effects.scss` - Effects
+- `skeleton-elements/skeleton-effect.scss` - Effects
 
 ### CSS Custom Properties (Variables)
 
@@ -140,7 +140,7 @@ Skeleton Avatar is designed to be used as a placeholder for avatars. It dynamica
 | -------------- | --------- | ------- | --------------------------------------------- |
 | `size`         | `number`  | `48`    | Generated SVG size in px.                     |
 | `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`   |
-| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not            |
+| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not           |
 | `iconColor`    | `string`  |         | Icon CSS color                                |
 | `borderRadius` | `string`  | `50%`   | Avatar CSS border radius                      |
 | `effect`       | `string`  |         | Loading effect, can be`fade`or`pulse`or`wave` |
@@ -162,7 +162,7 @@ Skeleton Image is designed to be used as a placeholder for images. It dynamicall
 | `width`        | `number`  | `1200`  | SVG image width in px                              |
 | `height`       | `number`  | `600`   | SVG image height in px                             |
 | `color`        | `string`  |         | CSS color, e.g. `#f00`, `rgba(255, 255, 0)`        |
-| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not                 |
+| `showIcon`     | `boolean` | `true`  | Defines whether to show icon or not                |
 | `iconColor`    | `string`  |         | Icon CSS color                                     |
 | `borderRadius` | `string`  |         | CSS border radius                                  |
 | `effect`       | `string`  |         | Loading effect, can be `fade` or `pulse` or `wave` |
@@ -177,11 +177,12 @@ As mentioned above Skeleton Text support specific subset of Latin characters and
 - `skeleton-elements/fonts/skeleton-ru.(ttf|woff|woff2)` - font containing Russian (Cyrillic) characters
 
 For example, to add Russian language support, register the font in your CSS:
+
 ```css
 @font-face {
   font-family: 'skeleton-ru';
-  src: url("/path-to/skeleton-elements/fonts/skeleton-ru.woff2") format("woff2"),
-       url("/path-to/skeleton-elements/fonts/skeleton-ru.woff") format("woff");
+  src: url('/path-to/skeleton-elements/fonts/skeleton-ru.woff2') format('woff2'),
+    url('/path-to/skeleton-elements/fonts/skeleton-ru.woff') format('woff');
 }
 
 .skeleton-text-ru {
@@ -190,10 +191,9 @@ For example, to add Russian language support, register the font in your CSS:
 ```
 
 And then use in your layout along with `skeleton-text` class:
+
 ```html
-<div class="skeleton-text skeleton-text-ru">
-  Текст на русском
-</div>
+<div class="skeleton-text skeleton-text-ru">Текст на русском</div>
 ```
 
 ## Loading Effects

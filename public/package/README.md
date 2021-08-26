@@ -2,12 +2,12 @@
 
 Skeleton elements (aka UI Skeletons, Skeleton Screens, Ghost Elements) - UI for improved perceived performance
 
-* [Documentation](#documentation)
-* [Installation](#installation)
-* [Styles](#styles)
-* [Usage](#usage)
-* [Contribution](#contribution)
-* [Licence](#licence)
+- [Documentation](#documentation)
+- [Installation](#installation)
+- [Styles](#styles)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Licence](#licence)
 
 ## Documentation
 
@@ -37,18 +37,18 @@ import 'skeleton-elements/skeleton-elements.css';
 
 Or it can be included for each component separately:
 
-* `skeleton-elements/skeleton-block.css` - Block component
-* `skeleton-elements/skeleton-text.css` - Text component
-* `skeleton-elements/skeleton-effects.css` - Effects
+- `skeleton-elements/skeleton-block.css` - Block component
+- `skeleton-elements/skeleton-text.css` - Text component
+- `skeleton-elements/skeleton-effect.css` - Effects
 
 ### SCSS
 
 `SCSS` styles are also included:
 
-* `skeleton-elements/skeleton-elements.scss` - All styles
-* `skeleton-elements/skeleton-block.scss` - Block component
-* `skeleton-elements/skeleton-text.scss` - Text component
-* `skeleton-elements/skeleton-effects.scss` - Effects
+- `skeleton-elements/skeleton-elements.scss` - All styles
+- `skeleton-elements/skeleton-block.scss` - Block component
+- `skeleton-elements/skeleton-text.scss` - Text component
+- `skeleton-elements/skeleton-effect.scss` - Effects
 
 ## Usage
 
@@ -74,7 +74,6 @@ See the [documentation](https://skeleton-elements.dev) for more examples and API
   </div>
   ...
 </div>
-
 ```
 
 ## Contribution
