@@ -1,3 +1,3 @@
 # Skeleton elements website
 
-https://skeleton-elements.dev
+https://skeleton-elements.nolimits4web.com
