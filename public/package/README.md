@@ -39,7 +39,7 @@ Or it can be included for each component separately:
 
 * `skeleton-elements/skeleton-block.css` - Block component
 * `skeleton-elements/skeleton-text.css` - Text component
-* `skeleton-elements/skeleton-effects.css` - Effects
+* `skeleton-elements/skeleton-effect.css` - Effects
 
 ### SCSS
 
@@ -48,7 +48,7 @@ Or it can be included for each component separately:
 * `skeleton-elements/skeleton-elements.scss` - All styles
 * `skeleton-elements/skeleton-block.scss` - Block component
 * `skeleton-elements/skeleton-text.scss` - Text component
-* `skeleton-elements/skeleton-effects.scss` - Effects
+* `skeleton-elements/skeleton-effect.scss` - Effects
 
 ## Usage
 
