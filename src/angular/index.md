@@ -53,7 +53,7 @@ Or you can import only components that you need:
 @import '~skeleton-elements/skeleton-block';
 @import '~skeleton-elements/skeleton-image';
 @import '~skeleton-elements/skeleton-text';
-@import '~skeleton-elements/skeleton-effects';
+@import '~skeleton-elements/skeleton-effect';
 ```
 
 ### CSS Custom Properties (Variables)
