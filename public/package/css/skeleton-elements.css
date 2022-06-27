@@ -20,8 +20,6 @@
 .skeleton-text {
   font-family: "skeleton" !important;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .skeleton-text, .skeleton-text * {
@@ -66,28 +64,13 @@
   mask-repeat: repeat;
   -webkit-mask-position: 50% top;
   mask-position: 50% top;
-  -webkit-animation: skeleton-effect-wave 1s infinite;
-          animation: skeleton-effect-wave 1s infinite;
+  animation: skeleton-effect-wave 1s infinite;
 }
 .skeleton-effect-fade {
-  -webkit-animation: skeleton-effect-fade 1s infinite;
-          animation: skeleton-effect-fade 1s infinite;
+  animation: skeleton-effect-fade 1s infinite;
 }
 .skeleton-effect-pulse {
-  -webkit-animation: skeleton-effect-pulse 1s infinite;
-          animation: skeleton-effect-pulse 1s infinite;
-}
-
-@-webkit-keyframes skeleton-effect-fade {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation: skeleton-effect-pulse 1s infinite;
 }
 
 @keyframes skeleton-effect-fade {
@@ -101,16 +84,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes skeleton-effect-wave {
-  0% {
-    -webkit-mask-position: 50% top;
-    mask-position: 50% top;
-  }
-  100% {
-    -webkit-mask-position: -150% top;
-    mask-position: -150% top;
-  }
-}
 @keyframes skeleton-effect-wave {
   0% {
     -webkit-mask-position: 50% top;
@@ -119,20 +92,6 @@
   100% {
     -webkit-mask-position: -150% top;
     mask-position: -150% top;
-  }
-}
-@-webkit-keyframes skeleton-effect-pulse {
-  0% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.975);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 @keyframes skeleton-effect-pulse {
