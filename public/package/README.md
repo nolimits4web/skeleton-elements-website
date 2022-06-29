@@ -2,16 +2,16 @@
 
 Skeleton elements (aka UI Skeletons, Skeleton Screens, Ghost Elements) - UI for improved perceived performance
 
-- [Documentation](#documentation)
-- [Installation](#installation)
-- [Styles](#styles)
-- [Usage](#usage)
-- [Contribution](#contribution)
-- [Licence](#licence)
+* [Documentation](#documentation)
+* [Installation](#installation)
+* [Styles](#styles)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Licence](#licence)
 
 ## Documentation
 
-See the [documentation](https://skeleton-elements.nolimits4web.com/) with examples and API documentation.
+See the [documentation](https://skeleton-elements.dev/) with examples and API documentation.
 
 ## Installation
 
@@ -37,29 +37,29 @@ import 'skeleton-elements/css';
 
 Or it can be included for each component separately:
 
-- `skeleton-elements/css` - All styles
-- `skeleton-elements/css/core` - Core styles
-- `skeleton-elements/css/block` - Block component
-- `skeleton-elements/css/text` - Text component
-- `skeleton-elements/css/image` - Image component
-- `skeleton-elements/css/avatar` - Avatar component
-- `skeleton-elements/css/effects` - Effects
+* `skeleton-elements/css` - All styles
+* `skeleton-elements/css/core` - Core styles
+* `skeleton-elements/css/block` - Block component
+* `skeleton-elements/css/text` - Text component
+* `skeleton-elements/css/image` - Image component
+* `skeleton-elements/css/avatar` - Avatar component
+* `skeleton-elements/css/effects` - Effects
 
 ### SCSS
 
 `SCSS` styles are also included:
 
-- `skeleton-elements/scss` - All styles
-- `skeleton-elements/scss/core` - Core styles
-- `skeleton-elements/scss/block` - Block component
-- `skeleton-elements/scss/text` - Text component
-- `skeleton-elements/scss/image` - Image component
-- `skeleton-elements/scss/avatar` - Avatar component
-- `skeleton-elements/scss/effects` - Effects
+* `skeleton-elements/scss` - All styles
+* `skeleton-elements/scss/core` - Core styles
+* `skeleton-elements/scss/block` - Block component
+* `skeleton-elements/scss/text` - Text component
+* `skeleton-elements/scss/image` - Image component
+* `skeleton-elements/scss/avatar` - Avatar component
+* `skeleton-elements/scss/effects` - Effects
 
 ## Usage
 
-See the [documentation](https://skeleton-elements.nolimits4web.com) for more examples and API documentation.
+See the [documentation](https://skeleton-elements.dev) for more examples and API documentation.
 
 ```html
 <style>
@@ -81,6 +81,7 @@ See the [documentation](https://skeleton-elements.nolimits4web.com) for more exa
   </div>
   ...
 </div>
+
 ```
 
 ## Contribution

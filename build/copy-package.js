@@ -28,8 +28,12 @@ module.exports = async () => {
     );
   });
 
-  fs.renameSync(
-    path.resolve(__dirname, '../public/skeleton-elements'),
-    path.resolve(__dirname, '../public/package'),
-  );
+  try {
+    fs.renameSync(
+      path.resolve(__dirname, '../public/skeleton-elements'),
+      path.resolve(__dirname, '../public/package'),
+    );
+  } catch (err) {
+    // error
+  }
 };
