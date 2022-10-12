@@ -47,6 +47,6 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "skeleton-elements": "^4.0.0"
+    "skeleton-elements": "^4.0.1"
   }
 }
